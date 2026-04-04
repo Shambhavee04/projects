@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# 🌾 Gram Vikas – Smart Rural Development Platform (SIH Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Problem Statement
 
-## Available Scripts
+Rural communities often struggle with limited access to government schemes, agricultural knowledge, and digital services. Information is scattered, hard to access, and not user-friendly for villagers.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 💡 Our Solution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Gram Vikas** is a digital platform designed to bridge the gap between rural communities and essential services by providing a **centralized, easy-to-use system** for:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Government scheme awareness
+* Agricultural guidance
+* Community engagement
+* Digital accessibility
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Key Features
 
-### `npm run build`
+### 📢 Government Schemes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Explore various government schemes in one place
+* Easy-to-understand information for rural users
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌱 Agricultural Support
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Farming tips and best practices
+* Seasonal guidance for farmers
 
-### `npm run eject`
+### 🧑‍🤝‍🧑 Community Platform
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Share information within the village
+* Stay updated with local activities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 💻 User-Friendly Interface
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Simple and clean design
+* Accessible for non-technical users
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔐 Backend Support
 
-## Learn More
+* Built using Flask for handling data securely
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Tech Stack
 
-### Code Splitting
+### 🔹 Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* HTML, CSS
+* React (JavaScript)
 
-### Analyzing the Bundle Size
+### 🔹 Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Python (Flask)
 
-### Making a Progressive Web App
+### 🔹 Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Git & GitHub
+* VS Code
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📁 Project Structure
 
-### Deployment
+```id="h1q4tr"
+gram-vikas/
+│── g.py
+│── templates/
+│── static/
+│── src/
+│── public/
+│── package.json
+│── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ⚙️ How to Run the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🔹 1. Clone the repository
+
+```bash id="1xg2wn"
+git clone https://github.com/Shambhavee04/gram-vikas-sih.git
+cd gram-vikas-sih
+```
+
+---
+
+### 🔹 2. Run Backend (Flask)
+
+```bash id="3sp3r3"
+python g.py
+```
+
+---
+
+### 🔹 3. Run Frontend (React)
+
+```bash id="bd2xqf"
+npm install
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here for better presentation)*
+
+---
+
+## 🎯 Future Enhancements
+
+* 📱 Mobile app integration
+* 🤖 AI-based farming recommendations
+* 🌐 Multi-language support
+* 📍 Location-based services
+
+---
+
+## 👩‍💻 Team
+
+* **Shambhavee Gupta**
+
+---
+
+## 📌 Conclusion
+
+Gram Vikas aims to empower rural communities by making information accessible, actionable, and centralized — contributing towards smarter and digitally connected villages.
+
+---
+
+⭐ *If you like this project, consider giving it a star!*
