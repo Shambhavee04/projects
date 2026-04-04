@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: #065f46;
+  background: #e3f4ec;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* rest of your CSS continues here... */
+
